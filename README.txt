@@ -2,17 +2,15 @@
 
 For installation:
 
-1.) Open and run "GraphicsMagick-1.3.32-Q16-win64-dll"
+1.) Open and install "GraphicsMagick-1.3.32-Q16-win64-dll"
 
-2.) Open and run "gs950w64"
+2.) Open and install "gs950w64"
 
-3.) Open and run "node-v12.13.0-x64"
+3.) Open and install "node-v12.13.0-x64"
 
 4.) Open the "source" folder and open a command line
 
-5.) type <npm init> (without the brackets) and hit Enter
-
-6.) type <npm install> (without the brackets) and hit Enter
+5.) type <npm install> (without the brackets) and hit Enter
 
 
 For use:
