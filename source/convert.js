@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const PDF2Pic = require('pdf2pic');
+const directory = require('./directory.json')
 
 fs.readdir('../DROP_PDF_HERE', (err, files) => {
     if(err) throw err;
@@ -15,7 +16,7 @@ fs.readdir('../DROP_PDF_HERE', (err, files) => {
                 const pdf2pic = new PDF2Pic ({
                     density: 100,               // output pixels per inch
                     savename: file,             // output file name
-                    savedir: "//nlapp01/autolims$/ScannedDocs/Mike",// output file location
+                    savedir: directory.savedir,// output file location
                     format: "jpg",              // output file format
                     size: "2096x2096"             // output size in pixels
                 });
